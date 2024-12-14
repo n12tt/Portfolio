@@ -9,7 +9,7 @@
     "typecheck": "react-router typegen && tsc",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build/client"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
