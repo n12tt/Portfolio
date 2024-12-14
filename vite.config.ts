@@ -11,4 +11,7 @@ export default defineConfig({
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
+  build: {
+    outDir: "dist",  // Ensure build output is placed in the root dist folder
+  },
 });
